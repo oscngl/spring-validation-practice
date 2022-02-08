@@ -16,7 +16,7 @@ public class UserDto {
     private String lastName;
 
     @NotEmpty(message = "Email is required!")
-    @NotBlank(message = "Email Name is required!")
+    @NotBlank(message = "Email is required!")
     @Email(message = "Email is not valid!")
     private String email;
 
